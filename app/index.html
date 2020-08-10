@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+
+  <title>Personal Page</title>
+
+</head>
+<body>
+  <header>
+    <div class="header">
+      <a href="#play" class="btn">play</a>
+      <a href="#work" class="btn">work</a>
+    </div>
+  </header>
+  <div class="murphy">
+    <!-- Responsive images that send different cropping of a image  based on screensize
+         and different dpi levels based on the monitors ability-->
+    <picture>
+      <source srcset="assets/images/Murphy_Landscape_2020-08-08.JPG 1920w, assets/images/Murphy_Landscape_high-res_2020-08-08.JPG 3840w" media="(min-width: 1380px)"/>
+      <source srcset="assets/images/Murphy_Landscape_2020-08-08.JPG 990w, assets/images/Murphy_Landscape_high-res_2020-08-08.JPG 1980w" media="(min-width: 640px)"/>
+      <img class="murphy__image" srcset="assets/images/Murphy_low-res_2020-08-08.JPG 640w, assets/images/Murphy_high-res_2020-08-08.JPG 1280w" alt="Murphy laying down"/>
+    </picture>
+
+    <div class="murphy__text-content">
+      <div class="wrapper">
+        <h1 class="murphy__title">Personal Webpage</h1>
+        <h2 class="murphy__subtitle">Work and Play</h2>
+        <p class="murphy__description">Webpage to create just a basic npm, webpack, nodejs project structure!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-section">
+    <div class="wrapper">
+      <a name="play"></a>Play
+    </div>
+    <div class="wrapper">
+      <a name="work"></a>Work
+    </div>
+  </div>
+  <div class="page-section">
+    <h2 class="headline headline--centered headline--light headline--narrow headline--b-margin-small">Hello <strong>World!</strong></h2>
+    <h2 class="headline headline--centered headline--small headline--orange headline--narrow headline--light headline-b-margin-large"><strong>Hello</strong> World!!</h2>
+
+  </div>
+</body>
+<script src="bundled.js" type="text/javascript"></script>
+</html>

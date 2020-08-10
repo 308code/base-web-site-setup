@@ -1,0 +1,16 @@
+.wrapper{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  &--medium{
+    max-width: 976px;
+  }
+  /* remove any indentation from nested wrappers */
+  .wrapper{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

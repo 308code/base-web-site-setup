@@ -1,0 +1,12 @@
+.btn{
+  background-color: $mainBlue;
+  color: #FFF;
+  margin-left: .2rem;
+  padding: .5rem .8rem;
+  text-decoration: none;
+  float: right;
+
+  &__orange{
+    background-color: $mainOrange;
+  }
+}
